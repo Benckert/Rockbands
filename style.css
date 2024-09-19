@@ -1,67 +1,80 @@
 body {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:"wdth" 100;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 h1.page-title {
-    text-align: center;
-    font-size: 64px;
-    letter-spacing: 10px;
-    margin-bottom: 16px;
+  text-align: center;
+  font-size: 64px;
+  letter-spacing: 10px;
+  margin-bottom: 16px;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .container {
-    max-width: 800px;
-    width: 100%;
+  max-width: 800px;
+  width: 100%;
 
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .main-content {
-    display: flex;
+  display: flex;
 }
 
 aside {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    width: 400px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 400px;
 }
 
-aside a, aside a:visited {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;    
+aside a,
+aside a:visited {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+aside .active {
+  color: red;
+}
+
+aside .active a {
+  pointer-events: none;
+}
+
+aside a:hover {
+  color: pink;
 }
 
 main {
-    background-color: blue;
-    text-align: center;
-    flex: auto;
+  text-align: center;
+  flex: auto;
 }
 
 .band-img {
-    width: 600px;
-    height: auto;
+  width: 600px;
+  height: auto;
 }
 
-header, footer {
-    text-align: center;
-}
-
-.active {
-    color: red;
+header,
+footer {
+  text-align: center;
 }
 
 hr {
-    margin-bottom: 36px;
-    max-width: 600px;    
+  margin-bottom: 36px;
+  max-width: 600px;
 }
