@@ -1,0 +1,23 @@
+.container {
+    max-width: 1000px;
+    width: 100%;
+
+    background-color: rgba(208, 255, 0, 0.728);
+    margin: 0 auto;
+}
+
+.main-content {
+    display: flex;
+}
+
+aside {
+    background-color: beige;
+
+    width: 240px;
+}
+
+main {
+    background-color: blue;
+
+    width: 360px;
+}
