@@ -19,5 +19,5 @@ aside {
 main {
     background-color: blue;
 
-    width: 360px;
+    flex: auto;
 }
